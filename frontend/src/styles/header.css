@@ -1,0 +1,80 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 10vh;
+}
+
+header ul {
+
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+.elements p {
+    margin-top: 20px;
+}
+
+.logoAndName h1 a {
+    text-decoration: none;
+    color: #333;
+}
+
+.logoAndName {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    height: 80px;
+    margin-right: 10px;
+}
+
+.headerButton {
+    padding: 8px 16px;
+    margin: 0 10px;
+}
+
+.header_container {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+
+        url("../assets/fondo_header.jpg") no-repeat center/cover;
+
+    background-color: black;
+}
+
+.elementoNav {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    gap: 5px;
+}
+
+
+.elementoNav:hover {
+    color: rgb(147, 212, 188);
+    text-shadow: rgb(147, 212, 188) 1px 1px 10px;
+
+}
+
+.logoAndName h1 a {
+    color: rgb(147, 212, 188);
+    font-weight: bold;
+}
+
+.logoAndName img {
+    border-radius: 50%;
+}

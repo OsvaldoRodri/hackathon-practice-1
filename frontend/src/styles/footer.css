@@ -1,0 +1,12 @@
+footer {
+    background:
+
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("../assets/fondo_header.jpg");
+
+    padding: 40px;
+}
+
+footer p {
+    margin: 0;
+}
